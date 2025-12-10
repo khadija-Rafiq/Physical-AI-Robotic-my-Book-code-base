@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MDX Frontmatter",
+  "description": "Schema for the frontmatter of MDX files in the Docusaurus project.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The title of the document."
+    },
+    "sidebar_label": {
+      "type": "string",
+      "description": "The label to be used in the sidebar."
+    },
+    "sidebar_position": {
+      "type": "number",
+      "description": "The position of the document in the sidebar."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags for the document."
+    }
+  },
+  "required": [
+    "title",
+    "sidebar_label",
+    "sidebar_position"
+  ]
+}

@@ -1,0 +1,25 @@
+---
+sidebar_position: 17
+---
+
+# Appendix B: Jetson Orin Nano Setup
+
+The NVIDIA Jetson Orin Nano is a powerful, compact, and energy-efficient AI computer that is ideal for robotics. In this appendix, we'll walk you through the process of setting up a Jetson Orin Nano for use with this textbook.
+
+## Flashing the Operating System
+
+1.  **Download the Jetson Linux Image:** Download the latest Jetson Linux image for the Jetson Orin Nano from the [NVIDIA Developer website](https://developer.nvidia.com/embedded/jetson-linux-archive).
+2.  **Flash the Image to a microSD Card:** Use a tool like [balenaEtcher](https://www.balena.io/etcher/) to flash the downloaded image to a high-quality microSD card (at least 64 GB recommended).
+3.  **Initial Boot:** Insert the microSD card into your Jetson Orin Nano and power it on. The first boot may take a few minutes as the system completes the initial setup.
+
+## Installing ROS 2
+
+Once your Jetson Orin Nano is up and running, the next step is to install ROS 2. We recommend following the official ROS 2 installation instructions for Ubuntu, which can be found on the [ROS 2 documentation website](https://docs.ros.org/en/humble/Installation.html).
+
+**Note:** Be sure to select the correct ROS 2 distribution for your version of Ubuntu. As of this writing, we recommend using ROS 2 Humble Hawksbill with Ubuntu 22.04.
+
+## Installing Isaac ROS
+
+To get the most out of your Jetson Orin Nano, you'll want to install NVIDIA's Isaac ROS packages. These packages provide hardware-accelerated implementations of common robotics algorithms.
+
+You can find the installation instructions for Isaac ROS on the [NVIDIA Isaac ROS documentation website](https://developer.nvidia.com/isaac-ros).
