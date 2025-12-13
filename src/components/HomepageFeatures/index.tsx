@@ -3,7 +3,10 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> baaec49816227f1d0f8e65779b8dda1cc42ff34a
 type FeatureItem = {
   title: string;
   description: React.ReactNode;
@@ -58,7 +61,10 @@ export default function HomepageFeatures(): React.ReactNode {
             <Feature key={idx} {...props} />
           ))}
         </div>
+<<<<<<< HEAD
         
+=======
+>>>>>>> baaec49816227f1d0f8e65779b8dda1cc42ff34a
       </div>
     </section>
   );
