@@ -1,0 +1,26 @@
+{
+  "id": "table-of-contents",
+  "title": "Table of Contents",
+  "description": "- Chapter 1: What is Physical AI",
+  "source": "@site/docs/table-of-contents.mdx",
+  "sourceDirName": ".",
+  "slug": "/table-of-contents",
+  "permalink": "/docs/table-of-contents",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Preface",
+    "permalink": "/docs/preface"
+  },
+  "next": {
+    "title": "Chapter Outline",
+    "permalink": "/docs/chapter-outline"
+  }
+}

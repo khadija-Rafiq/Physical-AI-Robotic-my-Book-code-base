@@ -1,0 +1,22 @@
+{
+  "id": "hardware/robot-lab-tiers",
+  "title": "Appendix D: Robot Lab Tiers",
+  "description": "Building a robot lab can be a daunting task, but it doesn't have to be expensive. In this appendix, we'll provide recommendations for building a robot lab at three different budget tiers: budget, mid-range, and premium.",
+  "source": "@site/docs/hardware/robot-lab-tiers.mdx",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/robot-lab-tiers",
+  "permalink": "/docs/hardware/robot-lab-tiers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 19,
+  "frontMatter": {
+    "sidebar_position": 19
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Appendix C: RealSense Integration",
+    "permalink": "/docs/hardware/realsense-integration"
+  }
+}

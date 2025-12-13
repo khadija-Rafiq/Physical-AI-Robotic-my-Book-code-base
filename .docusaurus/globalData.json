@@ -1,0 +1,123 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "capstone/autonomous-humanoid-robot",
+              "path": "/docs/capstone/autonomous-humanoid-robot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter-outline",
+              "path": "/docs/chapter-outline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/conversational-robotics",
+              "path": "/docs/chapters/conversational-robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/gazebo-and-unity-simulation",
+              "path": "/docs/chapters/gazebo-and-unity-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/humanoid-locomotion-and-manipulation",
+              "path": "/docs/chapters/humanoid-locomotion-and-manipulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/humanoid-robotics-foundations",
+              "path": "/docs/chapters/humanoid-robotics-foundations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/nvidia-isaac-sim-and-isaac-ros",
+              "path": "/docs/chapters/nvidia-isaac-sim-and-isaac-ros",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/ros-2-fundamentals",
+              "path": "/docs/chapters/ros-2-fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/sensors-and-perception",
+              "path": "/docs/chapters/sensors-and-perception",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/vision-language-action-robotics",
+              "path": "/docs/chapters/vision-language-action-robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapters/what-is-physical-ai",
+              "path": "/docs/chapters/what-is-physical-ai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/jetson-orin-nano-setup",
+              "path": "/docs/hardware/jetson-orin-nano-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/realsense-integration",
+              "path": "/docs/hardware/realsense-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/robot-lab-tiers",
+              "path": "/docs/hardware/robot-lab-tiers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/workstation-specs",
+              "path": "/docs/hardware/workstation-specs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "preface",
+              "path": "/docs/preface",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "table-of-contents",
+              "path": "/docs/table-of-contents",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "weekly-breakdown",
+              "path": "/docs/weekly-breakdown",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

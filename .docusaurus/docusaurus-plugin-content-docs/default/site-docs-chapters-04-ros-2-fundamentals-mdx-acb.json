@@ -1,0 +1,26 @@
+{
+  "id": "chapters/ros-2-fundamentals",
+  "title": "Chapter 4: ROS 2 Fundamentals",
+  "description": "Welcome to the world of ROS 2! The Robot Operating System (ROS) is an open-source framework for writing robot software. It's a powerful tool that is used by robotics researchers and professionals around the world. In this chapter, we'll cover the fundamental concepts of ROS 2.",
+  "source": "@site/docs/chapters/04-ros-2-fundamentals.mdx",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/ros-2-fundamentals",
+  "permalink": "/docs/chapters/ros-2-fundamentals",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Sensors & Perception",
+    "permalink": "/docs/chapters/sensors-and-perception"
+  },
+  "next": {
+    "title": "Chapter 5: Gazebo & Unity Simulation",
+    "permalink": "/docs/chapters/gazebo-and-unity-simulation"
+  }
+}

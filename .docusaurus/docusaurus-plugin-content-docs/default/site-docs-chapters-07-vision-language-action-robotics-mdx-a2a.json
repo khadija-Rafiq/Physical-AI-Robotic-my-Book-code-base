@@ -1,0 +1,26 @@
+{
+  "id": "chapters/vision-language-action-robotics",
+  "title": "Chapter 7: Vision-Language-Action Robotics",
+  "description": "Welcome to the cutting-edge of robotics! In this chapter, we'll explore the exciting field of Vision-Language-Action (VLA) robotics. VLA models are a type of AI that can understand natural language, perceive the world through vision, and take actions in the physical world.",
+  "source": "@site/docs/chapters/07-vision-language-action-robotics.mdx",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/vision-language-action-robotics",
+  "permalink": "/docs/chapters/vision-language-action-robotics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 6: NVIDIA Isaac Sim & Isaac ROS",
+    "permalink": "/docs/chapters/nvidia-isaac-sim-and-isaac-ros"
+  },
+  "next": {
+    "title": "Chapter 8: Conversational Robotics (GPT + Whisper)",
+    "permalink": "/docs/chapters/conversational-robotics"
+  }
+}

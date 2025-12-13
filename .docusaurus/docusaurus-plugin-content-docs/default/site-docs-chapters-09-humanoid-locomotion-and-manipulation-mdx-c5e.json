@@ -1,0 +1,26 @@
+{
+  "id": "chapters/humanoid-locomotion-and-manipulation",
+  "title": "Chapter 9: Humanoid Locomotion & Manipulation",
+  "description": "In this chapter, we'll tackle two of the most challenging and fascinating aspects of humanoid robotics: locomotion and manipulation.",
+  "source": "@site/docs/chapters/09-humanoid-locomotion-and-manipulation.mdx",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/humanoid-locomotion-and-manipulation",
+  "permalink": "/docs/chapters/humanoid-locomotion-and-manipulation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 8: Conversational Robotics (GPT + Whisper)",
+    "permalink": "/docs/chapters/conversational-robotics"
+  },
+  "next": {
+    "title": "Chapter 10: Capstone: Autonomous Humanoid Robot",
+    "permalink": "/docs/capstone/autonomous-humanoid-robot"
+  }
+}

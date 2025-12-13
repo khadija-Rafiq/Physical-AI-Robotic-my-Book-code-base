@@ -1,0 +1,26 @@
+{
+  "id": "hardware/jetson-orin-nano-setup",
+  "title": "Appendix B: Jetson Orin Nano Setup",
+  "description": "The NVIDIA Jetson Orin Nano is a powerful, compact, and energy-efficient AI computer that is ideal for robotics. In this appendix, we'll walk you through the process of setting up a Jetson Orin Nano for use with this textbook.",
+  "source": "@site/docs/hardware/jetson-orin-nano-setup.mdx",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/jetson-orin-nano-setup",
+  "permalink": "/docs/hardware/jetson-orin-nano-setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Appendix A: Workstation Specs",
+    "permalink": "/docs/hardware/workstation-specs"
+  },
+  "next": {
+    "title": "Appendix C: RealSense Integration",
+    "permalink": "/docs/hardware/realsense-integration"
+  }
+}

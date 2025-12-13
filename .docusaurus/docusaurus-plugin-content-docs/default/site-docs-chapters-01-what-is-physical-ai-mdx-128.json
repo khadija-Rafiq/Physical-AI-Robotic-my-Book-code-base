@@ -1,0 +1,26 @@
+{
+  "id": "chapters/what-is-physical-ai",
+  "title": "Chapter 1: What is Physical AI",
+  "description": "Welcome to the first chapter of our journey into the world of Physical AI and Humanoid Robotics! In this chapter, we'll explore the fundamental question: What is Physical AI?",
+  "source": "@site/docs/chapters/01-what-is-physical-ai.mdx",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/what-is-physical-ai",
+  "permalink": "/docs/chapters/what-is-physical-ai",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter Outline",
+    "permalink": "/docs/chapter-outline"
+  },
+  "next": {
+    "title": "Chapter 2: Humanoid Robotics Foundations",
+    "permalink": "/docs/chapters/humanoid-robotics-foundations"
+  }
+}

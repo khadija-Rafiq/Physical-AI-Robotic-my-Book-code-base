@@ -1,0 +1,26 @@
+{
+  "id": "hardware/realsense-integration",
+  "title": "Appendix C: RealSense Integration",
+  "description": "Intel RealSense cameras are a popular choice for robotics due to their ability to provide high-quality depth and color data in a compact and affordable package. In this appendix, we'll show you how to integrate a RealSense camera with ROS 2.",
+  "source": "@site/docs/hardware/realsense-integration.mdx",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/realsense-integration",
+  "permalink": "/docs/hardware/realsense-integration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Appendix B: Jetson Orin Nano Setup",
+    "permalink": "/docs/hardware/jetson-orin-nano-setup"
+  },
+  "next": {
+    "title": "Appendix D: Robot Lab Tiers",
+    "permalink": "/docs/hardware/robot-lab-tiers"
+  }
+}

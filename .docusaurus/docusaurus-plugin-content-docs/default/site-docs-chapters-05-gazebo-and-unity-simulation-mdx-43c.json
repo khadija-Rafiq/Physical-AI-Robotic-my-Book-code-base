@@ -1,0 +1,26 @@
+{
+  "id": "chapters/gazebo-and-unity-simulation",
+  "title": "Chapter 5: Gazebo & Unity Simulation",
+  "description": "Simulation is a crucial tool in robotics. It allows us to test and develop robot software without needing access to a physical robot, and it enables us to safely test our code in a wide variety of scenarios. In this chapter, we'll explore two of the most popular robotics simulators: Gazebo and Unity.",
+  "source": "@site/docs/chapters/05-gazebo-and-unity-simulation.mdx",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/gazebo-and-unity-simulation",
+  "permalink": "/docs/chapters/gazebo-and-unity-simulation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: ROS 2 Fundamentals",
+    "permalink": "/docs/chapters/ros-2-fundamentals"
+  },
+  "next": {
+    "title": "Chapter 6: NVIDIA Isaac Sim & Isaac ROS",
+    "permalink": "/docs/chapters/nvidia-isaac-sim-and-isaac-ros"
+  }
+}

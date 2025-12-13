@@ -1,0 +1,26 @@
+{
+  "id": "chapters/conversational-robotics",
+  "title": "Chapter 8: Conversational Robotics (GPT + Whisper)",
+  "description": "In this chapter, we'll explore how to create robots that you can talk to! We'll be using two powerful AI models from OpenAI: GPT, a large language model, and Whisper, a speech-to-text model.",
+  "source": "@site/docs/chapters/08-conversational-robotics.mdx",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/conversational-robotics",
+  "permalink": "/docs/chapters/conversational-robotics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 7: Vision-Language-Action Robotics",
+    "permalink": "/docs/chapters/vision-language-action-robotics"
+  },
+  "next": {
+    "title": "Chapter 9: Humanoid Locomotion & Manipulation",
+    "permalink": "/docs/chapters/humanoid-locomotion-and-manipulation"
+  }
+}

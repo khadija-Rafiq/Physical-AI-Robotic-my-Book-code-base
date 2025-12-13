@@ -1,0 +1,37 @@
+---
+sidebar_position: 18
+---
+
+# Appendix C: RealSense Integration
+
+Intel RealSense cameras are a popular choice for robotics due to their ability to provide high-quality depth and color data in a compact and affordable package. In this appendix, we'll show you how to integrate a RealSense camera with ROS 2.
+
+## Installing the RealSense ROS 2 Wrapper
+
+The first step is to install the official RealSense ROS 2 wrapper. This package provides a ROS 2 interface to the RealSense camera, allowing you to easily access its data streams.
+
+You can find the installation instructions for the RealSense ROS 2 wrapper on the [Intel RealSense GitHub repository](https://github.com/IntelRealSense/realsense-ros).
+
+## Launching the RealSense Node
+
+Once you have installed the wrapper, you can launch the RealSense node to start publishing camera data to ROS 2 topics.
+
+```bash
+ros2 launch realsense2_camera rs_launch.py
+```
+
+This will launch the RealSense node and start publishing data to a number of topics, including:
+
+-   `/camera/color/image_raw`: The raw color image from the camera.
+-   `/camera/depth/image_rect_raw`: The raw depth image from the camera.
+-   `/camera/pointcloud`: A point cloud generated from the depth data.
+
+## Visualizing the Data in RViz
+
+You can use RViz, the ROS 2 visualizer, to view the data from your RealSense camera.
+
+```bash
+rviz2
+```
+
+In RViz, you can add a display for each of the camera's data streams. For example, you can add an "Image" display to view the color image, and a "PointCloud2" display to view the point cloud.

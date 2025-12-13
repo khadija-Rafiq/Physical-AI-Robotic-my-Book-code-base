@@ -1,0 +1,26 @@
+{
+  "id": "chapters/sensors-and-perception",
+  "title": "Chapter 3: Sensors & Perception",
+  "description": "In this chapter, we'll explore the fascinating world of robot sensors and perception. Just like humans use their senses to understand the world, robots use sensors to gather information about their environment.",
+  "source": "@site/docs/chapters/03-sensors-and-perception.mdx",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/sensors-and-perception",
+  "permalink": "/docs/chapters/sensors-and-perception",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: Humanoid Robotics Foundations",
+    "permalink": "/docs/chapters/humanoid-robotics-foundations"
+  },
+  "next": {
+    "title": "Chapter 4: ROS 2 Fundamentals",
+    "permalink": "/docs/chapters/ros-2-fundamentals"
+  }
+}

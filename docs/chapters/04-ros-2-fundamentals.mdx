@@ -1,0 +1,74 @@
+---
+sidebar_position: 8
+---
+
+# Chapter 4: ROS 2 Fundamentals
+
+Welcome to the world of ROS 2! The Robot Operating System (ROS) is an open-source framework for writing robot software. It's a powerful tool that is used by robotics researchers and professionals around the world. In this chapter, we'll cover the fundamental concepts of ROS 2.
+
+## Introduction to the Robot Operating System (ROS)
+
+ROS is not a traditional operating system in the sense of Windows or macOS. Instead, it's a collection of software libraries and tools that help you build robot applications. ROS provides services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management.
+
+## ROS 2 Architecture: Nodes, Topics, Services, Actions
+
+The core of ROS 2 is a graph-based architecture where different processes (called **nodes**) communicate with each other. This communication happens in a few different ways:
+
+-   **Nodes:** A node is an executable that uses ROS 2 to communicate with other nodes.
+-   **Topics:** Nodes can publish messages to a **topic**, and other nodes can subscribe to that topic to receive the messages. This is a one-to-many communication model.
+-   **Services:** A service is a request/response communication model. One node offers a service, and another node can call that service and wait for a response.
+-   **Actions:** Actions are similar to services, but they are designed for long-running tasks. An action client can send a goal to an action server, and the server will provide feedback and a final result.
+
+## Creating a Simple ROS 2 Publisher and Subscriber
+
+The best way to learn ROS 2 is by writing some code! We'll walk you through the process of creating a simple "talker" node that publishes "Hello, World!" messages to a topic, and a "listener" node that subscribes to that topic and prints the messages to the console.
+
+```python title="talker.py"
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+
+class Talker(Node):
+    def __init__(self):
+        super().__init__('talker')
+        self.publisher_ = self.create_publisher(String, 'chatter', 10)
+        self.timer = self.create_timer(0.5, self.timer_callback)
+        self.i = 0
+
+    def timer_callback(self):
+        msg = String()
+        msg.data = f'Hello World: {self.i}'
+        self.publisher_.publish(msg)
+        self.get_logger().info(f'Publishing: "{msg.data}"')
+        self.i += 1
+
+def main(args=None):
+    rclpy.init(args=args)
+    talker = Talker()
+    rclpy.spin(talker)
+    talker.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+```
+
+## Student Activity: Modify the Talker
+
+Modify the `talker.py` code to publish your own custom message. For example, you could make it publish your name, the current date, or a random number.
+
+## Mini Quiz
+
+1.  **What is the one-to-many communication model in ROS 2?**
+    a) Services
+    b) Topics
+    c) Actions
+
+2.  **What is the name for a ROS 2 process?**
+    a) Node
+    b) Topic
+    c) Service
+
+3.  **True or False: ROS is a traditional operating system like Windows or macOS.**
+
+*Answers: 1(b), 2(a), 3(False)*

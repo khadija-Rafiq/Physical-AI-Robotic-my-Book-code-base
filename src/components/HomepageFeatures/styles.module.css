@@ -1,0 +1,25 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.featureCard {
+    background-color: #1a2b41;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--ifm-color-primary-dark);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    height: 100%;
+}
+
+.featureCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}

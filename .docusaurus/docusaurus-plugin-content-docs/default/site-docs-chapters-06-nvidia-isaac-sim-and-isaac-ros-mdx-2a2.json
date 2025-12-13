@@ -1,0 +1,26 @@
+{
+  "id": "chapters/nvidia-isaac-sim-and-isaac-ros",
+  "title": "Chapter 6: NVIDIA Isaac Sim & Isaac ROS",
+  "description": "In this chapter, we'll dive into the powerful world of NVIDIA's robotics platform. NVIDIA Isaac Sim is a photorealistic robotics simulator, and Isaac ROS provides a collection of hardware-accelerated packages for ROS 2. Together, they form a powerful ecosystem for developing and deploying high-performance robots.",
+  "source": "@site/docs/chapters/06-nvidia-isaac-sim-and-isaac-ros.mdx",
+  "sourceDirName": "chapters",
+  "slug": "/chapters/nvidia-isaac-sim-and-isaac-ros",
+  "permalink": "/docs/chapters/nvidia-isaac-sim-and-isaac-ros",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 5: Gazebo & Unity Simulation",
+    "permalink": "/docs/chapters/gazebo-and-unity-simulation"
+  },
+  "next": {
+    "title": "Chapter 7: Vision-Language-Action Robotics",
+    "permalink": "/docs/chapters/vision-language-action-robotics"
+  }
+}

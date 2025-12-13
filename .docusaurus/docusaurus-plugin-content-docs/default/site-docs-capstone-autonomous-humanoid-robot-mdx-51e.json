@@ -1,0 +1,26 @@
+{
+  "id": "capstone/autonomous-humanoid-robot",
+  "title": "Chapter 10: Capstone: Autonomous Humanoid Robot",
+  "description": "Welcome to the final chapter of the textbook! In this capstone project, you'll bring together everything you've learned to design, build, and program your very own autonomous humanoid robot.",
+  "source": "@site/docs/capstone/autonomous-humanoid-robot.mdx",
+  "sourceDirName": "capstone",
+  "slug": "/capstone/autonomous-humanoid-robot",
+  "permalink": "/docs/capstone/autonomous-humanoid-robot",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 9: Humanoid Locomotion & Manipulation",
+    "permalink": "/docs/chapters/humanoid-locomotion-and-manipulation"
+  },
+  "next": {
+    "title": "Weekly Breakdown: A 13-Week Curriculum",
+    "permalink": "/docs/weekly-breakdown"
+  }
+}

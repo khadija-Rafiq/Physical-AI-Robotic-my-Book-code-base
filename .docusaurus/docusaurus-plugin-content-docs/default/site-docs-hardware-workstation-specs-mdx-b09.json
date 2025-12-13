@@ -1,0 +1,26 @@
+{
+  "id": "hardware/workstation-specs",
+  "title": "Appendix A: Workstation Specs",
+  "description": "To get the most out of this textbook, you'll need a computer that can handle robotics simulation and AI development. Here are our recommendations for workstation and laptop specifications.",
+  "source": "@site/docs/hardware/workstation-specs.mdx",
+  "sourceDirName": "hardware",
+  "slug": "/hardware/workstation-specs",
+  "permalink": "/docs/hardware/workstation-specs",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Weekly Breakdown: A 13-Week Curriculum",
+    "permalink": "/docs/weekly-breakdown"
+  },
+  "next": {
+    "title": "Appendix B: Jetson Orin Nano Setup",
+    "permalink": "/docs/hardware/jetson-orin-nano-setup"
+  }
+}

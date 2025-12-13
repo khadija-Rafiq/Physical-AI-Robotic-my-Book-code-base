@@ -1,0 +1,26 @@
+{
+  "id": "weekly-breakdown",
+  "title": "Weekly Breakdown: A 13-Week Curriculum",
+  "description": "This document provides a sample 13-week curriculum for a course based on this textbook.",
+  "source": "@site/docs/weekly-breakdown.mdx",
+  "sourceDirName": ".",
+  "slug": "/weekly-breakdown",
+  "permalink": "/docs/weekly-breakdown",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 10: Capstone: Autonomous Humanoid Robot",
+    "permalink": "/docs/capstone/autonomous-humanoid-robot"
+  },
+  "next": {
+    "title": "Appendix A: Workstation Specs",
+    "permalink": "/docs/hardware/workstation-specs"
+  }
+}
