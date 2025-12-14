@@ -315,7 +315,7 @@ interface ChatInterfaceProps {
   apiUrl?: string; // Optional API URL, defaults to localhost:8000
 }
 
-const ChatInterface: React.FC<ChatInterfaceProps> = ({ apiUrl = 'http://localhost:8000' }) => {
+const ChatInterface: React.FC<ChatInterfaceProps> = ({ apiUrl = 'https://my-backend-ruby-eta.vercel.app/chat' }) => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',

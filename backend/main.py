@@ -1,3 +1,4 @@
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -78,6 +79,7 @@ def query_rag(data: QueryRequest):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
 
 
 

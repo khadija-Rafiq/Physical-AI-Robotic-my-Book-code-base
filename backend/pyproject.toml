@@ -5,13 +5,18 @@ description = "Backend for Docusaurus RAG system with Cohere and Qdrant"
 authors = [{name = "Developer", email = "dev@example.com"}]
 requires-python = ">=3.8"
 dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.24.0",
     "requests>=2.31.0",
     "beautifulsoup4>=4.12.2",
     "cohere>=4.9.0",
     "qdrant-client>=1.8.0",
-    "python-dotenv>=1.0.0",
+    "python-dotenv>=1.0.0"
 ]
 
 [build-system]
-requires = ["setuptools>=45", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]

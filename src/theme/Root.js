@@ -46,7 +46,7 @@ export default function Root({ children }) {
             overflow: 'hidden'
           }}
         >
-          <ChatInterface apiUrl="http://localhost:8000" />
+          <ChatInterface apiUrl="https://localhost:8000" />
         </div>
       )}
     </>
