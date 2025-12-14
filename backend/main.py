@@ -14,7 +14,7 @@ app = FastAPI(title="RAG Backend")
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://physical-ai-robotic-my-book-code-ba-gold.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
