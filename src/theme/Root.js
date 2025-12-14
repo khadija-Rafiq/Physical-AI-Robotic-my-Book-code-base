@@ -46,7 +46,7 @@ export default function Root({ children }) {
             overflow: 'hidden'
           }}
         >
-          <ChatInterface apiUrl="https://localhost:8000" />
+          <ChatInterface apiUrl="https://my-backend-ruby-eta.vercel.app" />
         </div>
       )}
     </>
